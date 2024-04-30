@@ -1,0 +1,1187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+/* Section - 1 */
+.section-1 {
+    width: 100%;
+    top: 90px;
+    position: relative;
+    background-image: url(img/homepage/images/BG-Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    .content {
+        max-width: 1350px;
+        margin: 0 auto;
+        padding-top: 10em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .part-1 {    
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            color: white;
+            width: 85%;
+            height: 340px;
+            max-height: 400px;
+            h1 {
+                width: 55%;
+                font-size: 64px;
+                font-family: 'Roboto';
+                letter-spacing: .025em;
+            }
+            .buttons {
+                width: 100%;
+                display: flex;
+                button {
+                    padding: 14px 32px;
+                    border-radius: 5px;
+                    border: none;
+                }
+                button:hover {
+                    cursor: pointer;
+                }
+                #butoni-2 {
+                    margin-left: .5rem;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    background: none;
+                    color: white;
+                    i {
+                        background-color: none;
+                        font-size: 1.5rem;
+                        margin-right: .4rem;
+                    }
+                }
+            }
+        }
+        .part-2 {
+            width: 90%;
+            font-size: 18px;
+            color: white;
+            margin: 10em auto 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            #line {
+                border: 0.1px solid white;
+                width: 60%;
+            }
+        }
+    }
+}
+
+/* Section - 2 */
+.section-2 {
+    font-family: 'Roboto';
+    background-color: rgb(254, 253, 252);
+    height: 850px;
+    margin-top: 5.6em;
+
+    .content {
+        max-width: 1350px;
+        height: 100%;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+        .row-1 {
+            height: 100%;
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 4em;
+            display: flex;
+                .p-1_2 {
+                width: 80%;
+                height: 80%;
+                margin: auto 0;
+                .p-1 {
+                    width: 42%;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    
+                    div {
+                        width: 72px;
+                        border: 1px solid rgba(29, 33, 48, 1);
+                        margin: 0 1em;
+                    }
+                    h4 {
+                        text-transform: uppercase;
+                        letter-spacing: 0.15em;
+                    }
+                }
+                .p-2 {
+                    width: 92%;
+                    height: 90%;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: flex-end;
+                        
+                    .info {
+                        height: 100%;
+                        width: 80%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        h4 {
+                            text-transform: uppercase;
+                            letter-spacing: 0.15em;
+                        }
+                        h1 {
+                            font-size: 48px;
+                        }
+                        p {
+                            color: rgb(93, 95, 106);
+                            line-height: 1.75em;
+                        }
+                        button {
+                            display: flex;
+                            width: 30%;
+                            justify-content: center;
+                            padding: 16px 32px;
+                            background-color: rgb(242, 201, 76);
+                            font-size: 14px;
+                            font-weight: bold;
+                            border: none;
+                            border-radius: 2px;
+                        }
+                        button:hover {
+                            background-color: rgb(242, 211, 117);
+                            cursor: pointer;
+                        }
+                    }
+                }
+                }
+                .p-3 {
+                width: 55%;
+                height: 90%;
+                margin: auto 0;
+                .image {
+                    width: 80%;
+                    height: 100%;
+                    background-image: url(img/homepage/images/BG-section2.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                        i {
+                            font-size: 56px;
+                            background: none;
+                            color: white;
+                            position: relative;
+                            display: flex;
+                            width: 100%;
+                            height: 100%;
+                            justify-content: center;
+                            align-items: center;
+                    }
+                }
+                }
+        }
+         .row-2 {
+            width: 100%;
+            .p-3_logos {
+                width: 85%;
+                margin: 0 auto;
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                
+                h3 {
+                    text-transform: uppercase;
+                    letter-spacing: 0.15em;
+                }
+                .logo-pics {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+} 
+
+/* Section - 3 */
+.section-3 {
+    background-color: rgba(252, 237, 198, 1);
+    font-family: 'Roboto';
+    height: 900px;
+    margin: 5em 0 0 0;
+    padding: 3em 0;
+
+    .content {
+        height: 90%;
+        max-width: 1350px;
+        margin: 0 auto;
+        padding-top: 2em;
+
+        .pjesa-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            margin-bottom: 1em;
+            width: 30%;
+            gap: 2em;
+            height: 50px;
+            div {
+                width: 72px;
+                border: 1px solid rgba(29, 33, 48, 1)
+            }
+            h4 {
+                text-transform: uppercase;
+                letter-spacing: 0.15em;
+            }
+        }
+        .pjesa-2 {
+            display: flex;
+            justify-content: flex-end;
+            width: 85%;
+            height: 90%;
+            margin: 0 auto;
+            p {
+                color: rgba(82, 85, 96, 1);
+                letter-spacing: .05em;
+            }
+            /* Kolona e pare - (Kolona majtas) */
+            .col-1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                width: 52%;
+                height: 80%;
+                h1 {
+                    font-size: 48px;
+                }
+                
+                img {
+                    padding: 0 1.5em;
+                }
+    
+                .service {
+                    height: 40%;
+                    display: flex;
+                    flex-direction: row;
+                    border-left: 2px solid rgba(229, 229, 229, 1);
+                    
+                }
+            }
+            /* Kolona e dyte - (Kolona djathtas) */
+            .col-2 {
+                width: 37%;
+                margin-left: 2em;
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+/* Section - 4 */
+.section-4 {
+    background-color: rgb(254, 254, 252);
+    font-family: 'Roboto';
+    height: 800px;
+    padding-top: 6em;
+    .content {
+        max-width: 1350px;
+        margin: 0 auto;
+        .pjesa-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 7em;
+            margin-bottom: 1em;
+            width: 30%;
+            gap: 2em;
+            height: 50px;
+            div {
+                width: 72px;
+                border: 1px solid rgba(29, 33, 48, 1)
+            }
+            h4 {
+                text-transform: uppercase;
+                letter-spacing: 0.15em;
+            }
+        }
+        .pjesa-2 {
+            width: 70%;
+            height: 240px;
+            margin: 0 auto;
+            h1 {
+                width: 60%;
+                font-size: 48px;
+                color: rgba(29, 33, 48, 1);
+            }
+        }
+        .pjesa-3 {
+            height: 450px;
+            width: 85%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: .5em;
+    
+            .info {
+                width: 80%;
+                margin: 0 auto;
+                height: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                text-align: left;
+                color: white;
+                h1 {
+                    height: 10%;
+                    font-size: 32px;
+                }
+                button {
+                    padding: 18px 35px;
+                    border-radius: 5px;
+                    border: none;
+                    font-weight: bold;
+                }
+                button:hover {
+                    background-color: rgb(252, 222, 222);
+                    cursor: pointer;
+                }
+                p {
+                    line-height: 1.55em;
+                }
+            }
+    
+            .card-1 {
+                height: 100%;
+                background-image: url(img/homepage/section-4_pictures/Pic-1.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            .card-2 {
+                height: 100%;
+                background-image: url(img/homepage/section-4_pictures/Pic-2.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            .card-3 {
+                height: 100%;
+                background-image: url(img/homepage/section-4_pictures/Pic-3.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+        }
+    }
+}
+
+/* Section - 5 --- The round chart */
+.section-5 {
+    height: 550px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Roboto';
+    .content {
+        max-width: 1150px;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        .col-1 {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: auto 0;
+            
+            h1 {
+                width: 90%;
+                font-size: 48px;
+                margin-bottom: .2em;
+            }
+            #paragraph {
+                font-family: 'Roboto';
+                font-weight: 400;
+                color: rgb(153, 153, 154);
+                line-height: 1.55em;
+                padding: 2em 0;
+            }
+            .statistics {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+    
+                .wheat, .white, .pink, .yellow, .purple {
+                    display: flex;
+                }
+                img {
+                    margin-right: .4em;
+                    margin-bottom: 1.4em;
+                }
+            }
+        }
+        .col-2 {
+            width: 50%;
+            margin: auto 0;
+            img {
+                height: 70%;
+            }
+        }
+    }
+}
+
+/* Section-6 */
+.section-6 {
+    background-color: rgb(254, 254, 252);
+    font-family: 'Roboto';
+    margin-bottom: 2em;
+    
+    height: 800px;
+    .content {
+        max-width: 1150px;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 2em;
+        .pjesa-1 {
+            width: 100%;
+            margin: 0 auto;
+            height: 50%;
+            display: flex;
+            justify-self: center;
+            align-items: center;
+            flex-direction: column;
+            img {
+                width: 100%;
+            }
+            .info {
+                text-align: center;
+                color: white;
+                position: relative;
+                bottom: 18em;
+                button {
+                    font-weight: bold;
+                    padding: 16px 32px;
+                    margin: 2em 1em 0 0;
+                    border: none;
+                    border-radius: 5px;
+                }
+                #b1 {
+                    background-color: rgb(242, 201, 76);
+                }
+                h1 {
+                    margin: 0 auto;
+                    width: 70%;
+                    font-size: 48px;
+                }
+            }
+        }
+        #heading1 {
+            font-size: 40px;
+            /* width: 25%;
+            text-align: center; */
+        }
+        .pjesa-2 {
+            width: 100%;
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 1.5em;
+    
+            .card-1, .card-2 {
+                width: 90%;
+                height: 136px;
+                border-radius: 15px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                
+                background-color: rgb(242, 201, 76);
+                .col-2 {
+                    .info {
+                        width: 90%;
+                    }
+                }
+                .date {
+                    height: 60%;
+                    width: 15%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    margin-right: 1em;
+                    #number {
+                        font-size: 48px;
+                    }
+                    #para {
+                        width: 100%;
+                        text-align: center;
+                        letter-spacing: .15em;
+                    }
+                }
+                .event {
+                    width: 60%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    letter-spacing: .15em;
+                    text-transform: uppercase;
+                    margin-bottom: 1em;
+                    div {
+                        margin-left: 1em;
+                        width: 44px;
+                        border: 1px solid black;
+                    }
+                }
+                .icon {
+                    width: 20%;
+                }
+            }
+        }
+    }
+}
+
+/* Media query
+Max-width 768px */
+@media screen and (max-width: 768px) {
+    .container {
+        header {
+            width: 100%;
+            position: fixed;
+            height: 90px;
+            .content {
+                padding: 0 10px;
+                justify-content: space-between;
+                ul {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 35%;
+                    display: none;
+                }
+            }
+        }
+
+        .section-1 {
+            height: 400px;
+            .content {
+                width: 90%;
+                padding-top: 4em;
+                .part-1 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    height: 200px;
+                    h1 {
+                        font-size: 26px;
+                    }
+                    
+                }
+                .part-2 {
+                    width: 100%;
+                    margin-left: 0;
+                    margin-top: 3em;
+                    #line {
+                        width: 40%;
+                    }
+                }
+            }
+        }
+        
+        .section-2 {
+            margin: 6em 0;
+            .content {
+                
+                .row-1 {
+                    width: 100%;
+                    .p-1_2 {
+                        width: 80%;
+                        height: 90%;
+                        .p-1 {
+                            width: 60%;
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: center;
+                            text-align: center;
+                            
+                            div {
+                                width: 72px;
+                                border: 1px solid rgba(29, 33, 48, 1);
+                                margin: 0 1em;
+                            }
+                            h4 {
+                                width: 100%;
+                                text-transform: uppercase;
+                                letter-spacing: 0.15em;
+                            }
+                        }
+                        .p-2 {
+                            width: 92%;
+                            margin: 0 auto;
+                            display: flex;
+                            justify-content: flex-end;
+                                
+                            .info {
+                                height: 100%;
+                                width: 80%;
+                                h1 {
+                                    font-size: 36px;
+                                }
+                                button {
+                                    width: 50%;
+                                }
+                            }
+                        }
+                    }
+                    .p-3 {
+                        width: 60%;
+                        height: 90%;
+                        padding-right: 1.5em;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .image {
+                            width: 100%;
+                            height: 70%;
+                        }
+                    }
+                }
+                .row-2 {
+                    width: 95%;
+                    .p-3_logos {
+                        h3 {
+                            width: 60%;
+                            text-align: center;
+                        }
+                        .logo-pics {
+                            margin: 0 auto;
+                            width: 70%;
+                            display: flex;
+                            justify-content: space-between;
+                            flex-wrap: wrap;
+                            gap: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .section-3 {
+            height: auto;
+            .content {
+                width: 100%;
+                .pjesa-2 {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    p {
+                        color: rgba(82, 85, 96, 1);
+                        padding: 1em 0;
+                        letter-spacing: .05em;
+                    }
+                    /* Kolona e pare - (Kolona majtas) */
+                    .col-1 {
+                        width: 80%;
+                        margin: 2em auto;
+                        .info {
+                            padding-top: 2em;
+                            display: grid;
+                            grid-template-columns: 1fr 1fr;
+                            grid-template-rows: 1fr 1fr;
+                        }
+
+                    }
+                    /* Kolona e dyte - (Kolona djathtas) */
+                    .col-2 {
+                        margin: 0 auto;
+                        width: 40%;
+                        img {
+                            width: 100%;
+                            height: 300px;
+                            padding-bottom: 2em;
+                        }
+                    }
+                }
+            }
+            
+        }
+
+        .section-4 {
+            padding-top: 3em;
+            
+            height: 950px;
+            .content {
+                width: 100%;
+                .pjesa-1 {
+                    margin: 0;
+                    width: 50%;
+                    gap: 2em;
+                    height: 50px;
+                    div {
+                        width: 72px;
+                        border: 1px solid rgba(29, 33, 48, 1)
+                    }
+                    h4 {
+                        text-transform: uppercase;
+                        letter-spacing: 0.15em;
+                    }
+                }
+                .pjesa-2 {
+                    width: 70%;
+                    height: 180px;
+                    h1 {
+                        width: 90%;
+                        font-size: 34px;
+                    }
+                }
+                .pjesa-3 {
+                    height: 600px;
+                    width: 80%;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr;
+                    
+                    .card-1, .card-2, .card-3 {
+                        height: 300px;
+                        .info {
+                            height: 100%;
+                            display: flex;
+                            justify-content: space-around;
+                            height: 90%;
+                            color: white;
+                            h1 {
+                                height: 10%;
+                                font-size: 26px;
+                            }
+                            p {
+                                line-height: 1em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .section-5 {
+            height: 750px;
+            .content {
+                width: 90%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                .col-1 {
+                    padding-top: 3em;
+                    h1 {
+                        width: 100%;
+                    }
+                }
+                .col-2 {
+                    height: 70%;
+                    width: 50%;
+                    margin: 0 auto;
+                    display: flex;
+                    align-items: center;
+                    
+                    img {
+                        height: 80%;
+                    }
+                }
+            }
+        }
+
+        .section-6 {
+            height: 700px;
+            margin-bottom: 3em;
+            .content {
+                width: 100%;
+                height: 100%;
+                
+                .pjesa-1 {
+                    img {
+                        width: 90%;
+                    }
+                    .info {
+                        position: relative;
+                        bottom: 11em;
+                        h1 {
+                            margin: 0 auto;
+                            width: 70%;
+                            font-size: 32px;
+                        }
+                    }
+                }
+                #heading1 {
+                    font-size: 28px;
+                    width: 28%;
+                    text-align: center;
+                }
+                .pjesa-2 {
+                    width: 90%;
+                    margin: 0 auto;
+                    height: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    .card-1, .card-2 {
+                        width: 100%;
+                        
+                        display: flex;
+                        
+                        .col-2 {
+                            .info {
+                                width: 90%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        footer {
+            height: 400px;
+            .content {
+                max-width: 1280px;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                .col-1 {
+                    grid-row: 2 / 3;
+                    grid-column: 1 / 2;
+                    height: 55%;
+                    width: 50%;
+                    margin: auto auto;
+                }
+                .col-5 {
+                    grid-column: 2 / 4;
+                    grid-row: 2 / 3;
+
+                    .info {
+                        height: 90%;
+                        margin: auto 0;
+                        
+                        h1 {
+                            font-size: 26px;
+                        }
+                        .info-2 {
+                            width: 100%;
+                            input, button {
+                                padding: 1.45em;
+                            }
+                            input {
+                                width: 55%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+} 
+
+@media screen and (max-width: 430px) {
+    .container {
+        .section-1 {
+            height: 400px;
+            .content {
+                width: 90%;
+                padding-top: 4em;
+                .part-1 {
+                    
+                    height: 200px;
+                    h1 {
+                        width: 100%;
+                        font-size: 26px;
+                    }
+                    
+                }
+                .part-2 {
+                    width: 100%;
+                    margin: 3em auto 0;
+                    display: flex;
+                    justify-content: space-between;
+                    p {
+                        font-size: 12px;
+                    }
+                    #line {
+                        width: 25%;
+                    }
+                }
+            }
+        }
+
+        .section-2 {
+            height: 1000px;
+            width: 100%;
+            .content {
+                width: 90%;
+                .row-1 {
+                    display: flex;
+                    flex-direction: column;
+                    .p-1_2 {
+                        width: 100%;
+                        height: auto;
+                        .p-1 {
+                            width: 50%;
+                            display: flex;
+                            h4 {
+                                font-size: 14px;
+                            }
+                            div {
+                                width: 64px;
+                                margin: 0;
+                            }
+                        
+                        }
+                        .p-2 {
+                            width: 90%;
+                            margin: 1em auto;
+                            display: flex;
+                            justify-content: center;
+                                
+                            .info {
+                                height: 100%;
+                                width: 80%;
+                                h1 {
+                                    font-size: 24px;
+                                }
+                                button {
+                                    width: 55%;
+                                }
+                            }
+                        }
+                    }
+                    .p-3 {
+                        width: 80%;
+                        height: 100%;
+                        padding-right: 1.5em;
+                        display: flex;
+                        
+                        .image {
+                            width: 70%;
+                            height: 100%;
+                            i {
+                                font-size: 36px;
+                                width: 100%;
+                                height: 80%;
+                            }
+                        }
+                    }
+                }
+                .row-2 {
+                    width: 95%;
+                    .p-3_logos {
+                        h3 {
+                            width: 70%;
+                        }
+                        .logo-pics {
+                            margin: 1em auto;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            flex-wrap: wrap;
+                            gap: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section-3 {
+            height: auto;
+            .content {
+                width: 100%;
+                .pjesa-1 {
+                    width: 55%;
+                    div {
+                        width: 62px;
+                    }
+                }
+                .pjesa-2 {
+                    width: 90%;
+                    /* Kolona e pare - (Kolona majtas) */
+                    .col-1 {
+                        width: 90%;
+                        h1 {
+                            font-size: 32px;
+                        }
+                        .info {
+                            grid-template-columns: auto;
+                            grid-template-rows: repeat(4, 1fr);
+                        }
+
+                    }
+                    /* Kolona e dyte - (Kolona djathtas) */
+                    .col-2 {
+                        width: 70%;
+                        img {
+                            width: 100%;
+                            height: 300px;
+                            padding-bottom: 2em;
+                        }
+                    }
+                }
+            }
+            
+        }
+
+        .section-4 {
+            margin-bottom: 14em;
+            .content {
+                width: 100%;
+                .pjesa-1 {
+                    margin: 0 auto;
+                    width: 80%;
+                    h4 {
+                        width: 100%;
+                    }
+                }
+                .pjesa-2 {
+                    h1 {
+                        width: 95%;
+                        font-size: 26px;
+                    }
+                }
+                .pjesa-3 {
+                    height: 600px;
+                    width: 70%;
+                    margin: 0 auto;
+                    display: grid;
+                    grid-template-columns: auto;
+                    grid-template-rows: repeat(3, 1fr);
+                    
+                    
+                }
+            }
+        }
+        
+        .section-5 {
+            .content {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                .col-1 {
+                    width: 95%;
+                    margin: 0 auto;
+                    height: 100%;
+                    padding: 3em .5em 0;
+                    h1 {
+                        font-size: 32px;
+                        width: 100%;
+                    }
+                    .statistics {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        grid-template-rows: repeat(3, 1fr);
+                    }
+                }
+                .col-2 {
+                    height: 70%;
+                    width: 50%;
+                    margin: 0 auto;
+                    
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .section-6 {
+            height: 700px;
+            margin-bottom: 3em;
+            .content {
+                width: 100%;
+                height: 100%;
+                
+                .pjesa-1 {
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    }
+                    .info {
+                        position: relative;
+                        bottom: 8em;
+                        h1 {
+                            width: 80%;
+                            font-size: 20px;
+                        }
+                        button {
+                            padding: 8px 16px;
+                            margin: 1em 0;
+                        }
+                    }
+                }
+                #heading1 {
+                    font-size: 26px;
+                    width: 45%;
+                    
+                }
+                .pjesa-2 {
+                    width: 100%;
+                    margin: 0 auto;
+                    
+                }
+            }
+        }
+
+        footer {
+            
+            .content {
+                width: 100%;
+                display: grid;
+                grid-template-rows: repeat(3, 1fr);
+                gap: 20px;
+                
+                .col-1 {
+                    grid-column: 1 / 3;
+                    grid-row: 3 / 4;
+                    height: 15%;
+                    width: 80%;
+                }
+                .col-5 {
+                    grid-column: 1 / 4;
+                    grid-row: 2 / 3;
+                    .info {
+                        height: 90%;
+                        margin: auto 0;
+                        
+                        h1 {
+                            font-size: 26px;
+                        }
+                        .info-2 {
+                            width: 100%;
+                            input, button {
+                                padding: 1em;
+                            }
+                            input {
+                                width: 40%;
+                            }
+                            button {
+                                width: 45%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
