@@ -286,8 +286,13 @@ Max-width 768px */
     
         }
 
-        /* Section-2 */
+        /* Section - 2 */
         .section-2 {
+            
+        }
+
+        /* Section-2 */
+        .section-3 {
             height: 770px;
             margin-bottom: 3em;
             .content {
